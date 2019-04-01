@@ -55,3 +55,4 @@ C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.iOS\obj\iPho
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.iOS\obj\iPhoneSimulator\Debug\SCCR_App.iOS.csproj.CopyComplete
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.iOS\obj\iPhoneSimulator\Debug\SCCR_App.iOS.exe
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.iOS\obj\iPhoneSimulator\Debug\SCCR_App.iOS.pdb
+C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.iOS\bin\iPhoneSimulator\Debug\SCCR_App.dll.mdb

@@ -16,5 +16,9 @@ namespace SCCR_App
 		{
 			InitializeComponent ();
 		}
-	}
+        private async void AdminSettingsClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AdminSettings());
+        }
+    }
 }

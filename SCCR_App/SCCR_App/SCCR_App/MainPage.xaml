@@ -5,14 +5,14 @@
              x:Class="SCCR_App.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="This is the main page - rescue feed will go here" 
+        <ImageButton Source="settings_gear.png"
+                    HorizontalOptions="End"
+                    VerticalOptions="Start"
+                    Clicked="SettingsClicked"/>
+        <Label Text="This is the main page - rescue feed will go here. The rescue feed will need to pull and display entries from the database." 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="Settings"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
-                Clicked="SettingsClicked" />
+                
     </StackLayout>
 
 </ContentPage>
