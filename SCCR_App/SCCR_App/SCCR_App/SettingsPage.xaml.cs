@@ -14,7 +14,8 @@ namespace SCCR_App
 	{
 		public SettingsPage ()
 		{
-			InitializeComponent ();
+            NavigationPage.SetHasNavigationBar(this, false);
+            InitializeComponent ();
 		}
         private async void AdminSettingsClicked(object sender, EventArgs e)
         {
@@ -22,7 +23,7 @@ namespace SCCR_App
             //await Navigation.PushAsync(new NavigationPage(new AdminSettings()));
 
             //otherwise, it's not logged in as an admin
-            await Navigation.PushAsync(new NavigationPage(new AdminLogin()));
+            await Navigation.PushAsync(new AdminLogin());
         }
     }
 }

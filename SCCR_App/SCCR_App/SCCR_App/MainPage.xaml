@@ -4,15 +4,23 @@
              xmlns:local="clr-namespace:SCCR_App"
              x:Class="SCCR_App.MainPage">
 
-    <StackLayout>
-        <ImageButton Source="settings_gear.png"
+    <ScrollView>
+        <StackLayout>
+            <ImageButton Source="settings.png"
                     HorizontalOptions="End"
                     VerticalOptions="Start"
+                    BorderColor="Transparent"
+                    BackgroundColor="Transparent"
                     Clicked="SettingsClicked"/>
-        <Label Text="This is the main page - rescue feed will go here. The rescue feed will need to pull and display entries from the database." 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-                
-    </StackLayout>
+            <Label Text="This is the main page - rescue feed will go here. The rescue feed will need to pull and display entries from the database." 
+                    HorizontalOptions="Center"
+                    VerticalOptions="StartAndExpand" />
+            <Image Source="doggo.png"/>
+            <Label Text="This doggo is a 4 year old pitty-mix looking for a good home!"/>
+            <Image Source="aggie.png"/>
+            <Label Text="Aggie may only have three legs, but she has a big heart!"/>
+        </StackLayout>
+    </ScrollView>
+    
 
 </ContentPage>

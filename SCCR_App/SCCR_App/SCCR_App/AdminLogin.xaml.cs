@@ -14,7 +14,8 @@ namespace SCCR_App
 	{
 		public AdminLogin ()
 		{
-			InitializeComponent ();
+            NavigationPage.SetHasNavigationBar(this, false);
+            InitializeComponent ();
 		}
 
         //you'll also need two event handler completed funcitons to handle what happens when the user hits enter after filling a text box

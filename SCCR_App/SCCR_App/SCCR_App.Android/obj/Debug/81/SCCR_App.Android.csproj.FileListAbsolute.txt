@@ -104,4 +104,8 @@ C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.Android\obj\
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.Android\obj\Debug\81\res\drawable\settings.png
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.Android\obj\Debug\81\res\drawable\settings_gear.png
+C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.Android\obj\Debug\81\res\drawable\aggie.png
+C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.Android\obj\Debug\81\res\drawable\doggo.png
+C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\bin\Debug\netstandard2.0\SCCR_App.dll
+C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.Android\bin\Debug\SCCR_App.dll.mdb
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App.Android\obj\Debug\81\linksrc\SCCR_App.dll.mdb
