@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SCCR_App"
+             x:Class="SCCR_App.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="This is the main page - rescue feed will go here" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button Text="Settings"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="SettingsClicked" />
+    </StackLayout>
+
+</ContentPage>
