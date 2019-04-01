@@ -11,11 +11,12 @@ namespace SCCR_App
     {
         public MainPage()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
         }
         private async void SettingsClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new NavigationPage(new SettingsPage()));
+            await Navigation.PushAsync(new SettingsPage());
         }
     }
 }
