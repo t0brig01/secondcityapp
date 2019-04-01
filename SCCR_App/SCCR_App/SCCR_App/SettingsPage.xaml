@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SCCR_App.SettingsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="This will be the settings page"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Notifications Settings: Users can enable/disable push notifications"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Open Admin Settings"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="AdminSettingsClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
