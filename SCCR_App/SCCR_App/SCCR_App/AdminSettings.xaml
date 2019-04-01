@@ -4,16 +4,17 @@
              x:Class="SCCR_App.AdminSettings">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Space for username and password here"
+            <Label Text="Hey Admin!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button Text="Submit"
+                HorizontalOptions="CenterAndExpand" />   
+            <Button Text="Create a new Rescue Profile"
                 VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
-                Clicked="AdminCredsClicked" />
-            <Label Text="Admin accounts can upload profiles for new rescues. To gain admin priviledges, contact Second City Canine Rescue's admin."
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand"
+                Clicked="NewRescueProfileClicked" />
+            <Button Text="Log Out"
+                VerticalOptions="End"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="AdminLogOutClicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

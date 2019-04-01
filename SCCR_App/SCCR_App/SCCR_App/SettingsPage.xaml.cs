@@ -18,7 +18,11 @@ namespace SCCR_App
 		}
         private async void AdminSettingsClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AdminSettings());
+            //if this device is already logged in as an admin, 
+            //await Navigation.PushAsync(new NavigationPage(new AdminSettings()));
+
+            //otherwise, it's not logged in as an admin
+            await Navigation.PushAsync(new NavigationPage(new AdminLogin()));
         }
     }
 }

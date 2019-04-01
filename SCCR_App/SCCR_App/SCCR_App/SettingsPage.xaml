@@ -7,12 +7,13 @@
             <Label Text="This will be the settings page"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            
             <Label Text="Notifications Settings: Users can enable/disable push notifications"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="Open Admin Settings"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="CenterAndExpand"
                 Clicked="AdminSettingsClicked" />
         </StackLayout>
     </ContentPage.Content>

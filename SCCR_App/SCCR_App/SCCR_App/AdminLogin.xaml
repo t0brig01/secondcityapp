@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SCCR_App.AdminLogin">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Space for username and password here"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="Username" IsSpellCheckEnabled="false"/>
+            <Entry IsPassword="true" Placeholder="Password" IsSpellCheckEnabled="false"/>
+            <Button Text="Submit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="AdminCredsClicked" />
+            <Label Text="Admin accounts can upload profiles for new rescues. To gain admin priviledges, contact Second City Canine Rescue's admin."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
