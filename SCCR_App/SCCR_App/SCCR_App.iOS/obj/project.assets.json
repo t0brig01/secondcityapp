@@ -556,7 +556,7 @@
   },
   "libraries": {
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
@@ -714,20 +714,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danie\\.nuget\\packages\\": {}
+    "C:\\Users\\tabri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
       "projectName": "SCCR_App.iOS",
-      "projectPath": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
-      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\obj\\",
+      "projectPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
+      "packagesPath": "C:\\Users\\tabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -740,8 +740,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj": {
-              "projectPath": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj"
+            "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj": {
+              "projectPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj"
             }
           }
         }
