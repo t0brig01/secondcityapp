@@ -2,6 +2,51 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "AWSSDK.Core/3.3.100.3": {
+        "type": "package",
+        "dependencies": {
+          "PCLCrypto": "1.0.2.15130",
+          "PCLStorage": "1.0.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/AWSSDK.Core.dll": {}
+        }
+      },
+      "PCLCrypto/1.0.2.15130": {
+        "type": "package",
+        "dependencies": {
+          "Validation": "[2.0.6, 3.0.0)"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/PCLCrypto.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/PCLCrypto.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        }
+      },
+      "Validation/2.0.6.15003": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -129,6 +174,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "AWSSDK.Core": "3.3.100.3",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -140,6 +186,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "AWSSDK.Core/3.3.100.3": {
+        "type": "package",
+        "dependencies": {
+          "PCLCrypto": "1.0.2.15130",
+          "PCLStorage": "1.0.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/AWSSDK.Core.dll": {}
+        }
+      },
+      "PCLCrypto/1.0.2.15130": {
+        "type": "package",
+        "dependencies": {
+          "Validation": "[2.0.6, 3.0.0)"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/PCLCrypto.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/PCLCrypto.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        }
+      },
+      "Validation/2.0.6.15003": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -267,6 +358,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "AWSSDK.Core": "3.3.100.3",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -278,6 +370,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "AWSSDK.Core/3.3.100.3": {
+        "type": "package",
+        "dependencies": {
+          "PCLCrypto": "1.0.2.15130",
+          "PCLStorage": "1.0.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/AWSSDK.Core.dll": {}
+        }
+      },
+      "PCLCrypto/1.0.2.15130": {
+        "type": "package",
+        "dependencies": {
+          "Validation": "[2.0.6, 3.0.0)"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/PCLCrypto.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/PCLCrypto.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        }
+      },
+      "Validation/2.0.6.15003": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -405,6 +542,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "AWSSDK.Core": "3.3.100.3",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -416,6 +554,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "AWSSDK.Core/3.3.100.3": {
+        "type": "package",
+        "dependencies": {
+          "PCLCrypto": "1.0.2.15130",
+          "PCLStorage": "1.0.2"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/AWSSDK.Core.dll": {}
+        }
+      },
+      "PCLCrypto/1.0.2.15130": {
+        "type": "package",
+        "dependencies": {
+          "Validation": "[2.0.6, 3.0.0)"
+        },
+        "compile": {
+          "lib/Xamarin.iOS/PCLCrypto.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/PCLCrypto.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll": {},
+          "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll": {}
+        }
+      },
+      "Validation/2.0.6.15003": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -543,6 +726,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "AWSSDK.Core": "3.3.100.3",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -555,8 +739,148 @@
     }
   },
   "libraries": {
+    "AWSSDK.Core/3.3.100.3": {
+      "sha512": "TttzG9oQVBLNPB4jp2JO5hXo2JZpj9kEvkJh7gqvLFi99qXSenLg61WVred9NDLs6yeXiRYe8/FhuUIh5wRAIw==",
+      "type": "package",
+      "path": "awssdk.core/3.3.100.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.3.100.3.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/MonoAndroid10/AWSSDK.Core.XML",
+        "lib/MonoAndroid10/AWSSDK.Core.dll",
+        "lib/MonoAndroid10/AWSSDK.Core.pdb",
+        "lib/MonoTouch10/AWSSDK.Core.XML",
+        "lib/MonoTouch10/AWSSDK.Core.dll",
+        "lib/Xamarin.Mac20/AWSSDK.Core.XML",
+        "lib/Xamarin.Mac20/AWSSDK.Core.dll",
+        "lib/Xamarin.iOS10/AWSSDK.Core.XML",
+        "lib/Xamarin.iOS10/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.pdb",
+        "lib/uap/AWSSDK.Core.XML",
+        "lib/uap/AWSSDK.Core.dll",
+        "lib/uap/AWSSDK.Core.pdb",
+        "lib/win8/AWSSDK.Core.XML",
+        "lib/win8/AWSSDK.Core.dll",
+        "lib/win8/AWSSDK.Core.pdb",
+        "lib/wp8/AWSSDK.Core.XML",
+        "lib/wp8/AWSSDK.Core.dll",
+        "lib/wp8/AWSSDK.Core.pdb",
+        "lib/wpa81/AWSSDK.Core.XML",
+        "lib/wpa81/AWSSDK.Core.dll",
+        "lib/wpa81/AWSSDK.Core.pdb",
+        "tools/account-management.ps1"
+      ]
+    },
+    "PCLCrypto/1.0.2.15130": {
+      "sha512": "FbqU/mbtemApQTSLHTlLHmzR55oB9O8FJ6cEiQdJr2PMpzGM6k4yroHpJKBcl+bZ6SplTClK3SS6xxlskyLgHg==",
+      "type": "package",
+      "path": "pclcrypto/1.0.2.15130",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.iOS/PCLCrypto.dll",
+        "lib/Xamarin.iOS/PCLCrypto.xml",
+        "lib/monoandroid/PCLCrypto.dll",
+        "lib/monoandroid/PCLCrypto.xml",
+        "lib/monotouch/PCLCrypto.dll",
+        "lib/monotouch/PCLCrypto.xml",
+        "lib/net40-Client/PCLCrypto.dll",
+        "lib/net40-Client/PCLCrypto.xml",
+        "lib/portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/PCLCrypto.dll",
+        "lib/portable-net40+sl50+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/PCLCrypto.xml",
+        "lib/sl5/PCLCrypto.dll",
+        "lib/sl5/PCLCrypto.xml",
+        "lib/win81/PCLCrypto.dll",
+        "lib/win81/PCLCrypto.pri",
+        "lib/win81/PCLCrypto.xml",
+        "lib/wp8/PCLCrypto.dll",
+        "lib/wp8/PCLCrypto.xml",
+        "lib/wpa81/PCLCrypto.dll",
+        "lib/wpa81/PCLCrypto.pri",
+        "lib/wpa81/PCLCrypto.xml",
+        "pclcrypto.1.0.2.15130.nupkg.sha512",
+        "pclcrypto.nuspec"
+      ]
+    },
+    "PCLStorage/1.0.2": {
+      "sha512": "9If+1ZFCk3QaT/asfiL+J9FMnx2CTMrLCU8tDMUOI/aCGWGWl9vJ1/KcMkjf92op23ZknenvYJZBLDAqE3sFlg==",
+      "type": "package",
+      "path": "pclstorage/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid/PCLStorage.Abstractions.dll",
+        "lib/monoandroid/PCLStorage.Abstractions.xml",
+        "lib/monoandroid/PCLStorage.dll",
+        "lib/monoandroid/PCLStorage.xml",
+        "lib/monotouch/PCLStorage.Abstractions.dll",
+        "lib/monotouch/PCLStorage.Abstractions.xml",
+        "lib/monotouch/PCLStorage.dll",
+        "lib/monotouch/PCLStorage.xml",
+        "lib/net45/PCLStorage.Abstractions.dll",
+        "lib/net45/PCLStorage.Abstractions.xml",
+        "lib/net45/PCLStorage.dll",
+        "lib/net45/PCLStorage.xml",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll",
+        "lib/portable-win8+wpa81/PCLStorage.Abstractions.xml",
+        "lib/portable-win8+wpa81/PCLStorage.dll",
+        "lib/portable-win8+wpa81/PCLStorage.xml",
+        "lib/sl5/PCLStorage.Abstractions.dll",
+        "lib/sl5/PCLStorage.Abstractions.xml",
+        "lib/sl5/PCLStorage.dll",
+        "lib/sl5/PCLStorage.xml",
+        "lib/wp8/PCLStorage.Abstractions.dll",
+        "lib/wp8/PCLStorage.Abstractions.xml",
+        "lib/wp8/PCLStorage.dll",
+        "lib/wp8/PCLStorage.xml",
+        "pclstorage.1.0.2.nupkg.sha512",
+        "pclstorage.nuspec"
+      ]
+    },
+    "Validation/2.0.6.15003": {
+      "sha512": "8vgCOG9mPeOd3xwyL20OT9RyOKq9PmJb0Iltzwj6eay38Cq2v6ojvpSDbc+sc6YXit+iAVyyvHTS29rBvDpdDQ==",
+      "type": "package",
+      "path": "validation/2.0.6.15003",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll",
+        "lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.xml",
+        "validation.2.0.6.15003.nupkg.sha512",
+        "validation.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
@@ -709,25 +1033,26 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "AWSSDK.Core >= 3.3.100.3",
       "SCCR_App >= 1.0.0",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danie\\.nuget\\packages\\": {}
+    "C:\\Users\\Trevor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
       "projectName": "SCCR_App.iOS",
-      "projectPath": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
-      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
+      "packagesPath": "C:\\Users\\Trevor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Trevor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -740,8 +1065,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj": {
-              "projectPath": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj"
+            "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj": {
+              "projectPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj"
             }
           }
         }
@@ -750,6 +1075,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.3.100.3, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.4.0.1008975, )"
@@ -768,5 +1097,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "PCLCrypto 1.0.2.15130 depends on Validation (>= 2.0.6 && < 3.0.0) but Validation 2.0.6 was not found. An approximate best match of Validation 2.0.6.15003 was resolved.",
+      "libraryId": "Validation",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
