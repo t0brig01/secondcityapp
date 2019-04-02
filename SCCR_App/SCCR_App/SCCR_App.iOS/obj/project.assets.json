@@ -1039,20 +1039,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Trevor\\.nuget\\packages\\": {}
+    "C:\\Users\\tabri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
       "projectName": "SCCR_App.iOS",
-      "projectPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
-      "packagesPath": "C:\\Users\\Trevor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\obj\\",
+      "projectPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\SCCR_App.iOS.csproj",
+      "packagesPath": "C:\\Users\\tabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Trevor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1065,8 +1065,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj": {
-              "projectPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj"
+            "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj": {
+              "projectPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj"
             }
           }
         }
