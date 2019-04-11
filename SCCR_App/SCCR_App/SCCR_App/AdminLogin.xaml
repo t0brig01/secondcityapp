@@ -4,12 +4,12 @@
              x:Class="SCCR_App.AdminLogin">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Space for username and password here"
+            <Label Text="Please enter the Admin Credentials here:"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Entry Placeholder="Username" IsSpellCheckEnabled="false"/>
-            <Entry IsPassword="true" Placeholder="Password" IsSpellCheckEnabled="false"/>
-            <Button Text="Submit"
+                HorizontalOptions="CenterAndExpand" />            
+            <Entry x:Name ="Username" Placeholder="Username" IsSpellCheckEnabled="false"/>
+            <Entry x:Name ="Password" IsPassword="true" Placeholder="Password" IsSpellCheckEnabled="false"/>
+            <Button x:Name ="Submit_Button" Text="Submit"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
                 Clicked="AdminCredsClicked" />

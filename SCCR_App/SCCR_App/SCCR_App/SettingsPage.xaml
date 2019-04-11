@@ -6,13 +6,13 @@
              NavigationPage.HasBackButton="False">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="<b>Settings</b>"
+            <Label Text="Settings"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" />            
             <Label Text="Notifications Settings: Users can enable/disable push notifications"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="<b>Open Admin Settings</b>"
+            <Button Text="Open Admin Settings"
                 VerticalOptions="EndAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 BackgroundColor="Transparent"
