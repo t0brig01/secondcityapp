@@ -3,10 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SCCR_App.UploadNewEntry">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="This is the page where an admin can create a new rescue animal entry and upload it to the database."
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid ColumnSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="60" />
+                <RowDefinition Height="60" />
+                <RowDefinition Height="45" />
+                <RowDefinition Height="60" />
+                <RowDefinition Height="60" />
+                <RowDefinition Height="60" />
+                <RowDefinition Height="200" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Enter new rescue's information here. Hit submit to notify users about the new dog." Grid.Row="0" Grid.ColumnSpan="2" XAlign="Center" FontSize="Medium" />
+            <Entry x:Name ="Entry_Name" Placeholder="Dog's Name" Grid.Row="1" Grid.ColumnSpan="2"/>
+            <Entry x:Name ="Entry_Breed" Placeholder="Dog's Breed" Grid.Row="2" Grid.ColumnSpan="2"/>
+            <Label Text="Age:" HorizontalOptions="Start" Grid.Row="3" Grid.Column="0" VerticalOptions="Center"/>
+            <Entry x:Name ="Entry_Age_Years" Placeholder="Years" Grid.Row="4" Grid.Column="0"/>
+            <Entry x:Name ="Entry_Age_Months" Placeholder="Months" Grid.Row="4" Grid.Column="1"/>
+            <Entry x:Name ="Entry_Gender" Placeholder="Gender: Male or Female" Grid.Row="5" Grid.ColumnSpan="2"/>
+            <Entry x:Name ="Entry_Fixed" Placeholder="Fixed: Yes or No" Grid.Row="6" Grid.ColumnSpan="2"/>
+
+            <Button x:Name ="Submit_Button" Text="Submit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="UploadButtonClicked"                     
+                Grid.Row="7" Grid.ColumnSpan="2"/>
+
+        </Grid>
+        
     </ContentPage.Content>
 </ContentPage>

@@ -32,8 +32,7 @@ namespace SCCR_App
             //if incorrect, display an error message
 
             if (Username.Text.Equals(AdminUsername))
-            {
-                
+            {                
                 if (Password.Text.Equals(AdminPassword))
                 {                    
                     await DisplayAlert("Login", "Login Successful", "OK");

@@ -14,8 +14,14 @@
                 HorizontalOptions="Center"
                 Clicked="AdminCredsClicked" />
             <Label Text="Admin accounts can upload profiles for new rescues. To gain admin priviledges, contact Second City Canine Rescue's admin."
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                VerticalOptions="End" 
+                HorizontalOptions="CenterAndExpand" 
+                XAlign="Center"/>
+            <Image Source="RRtext.png"
+                   VerticalOptions="End"
+                   HorizontalOptions="CenterAndExpand" />
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

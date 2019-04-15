@@ -1,10 +1,12 @@
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\bin\Debug\netstandard2.0\SCCR_App.deps.json
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\bin\Debug\netstandard2.0\SCCR_App.dll
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\bin\Debug\netstandard2.0\SCCR_App.pdb
+C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\SCCR_App.csprojAssemblyReference.cache
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\AdminLogin.xaml.g.cs
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\AdminSettings.xaml.g.cs
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\NewEntryPage.xaml.g.cs
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\UploadNewEntry.xaml.g.cs
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\SCCR_App.csproj.CoreCompileInputs.cache
