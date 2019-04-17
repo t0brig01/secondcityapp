@@ -795,20 +795,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tabri\\.nuget\\packages\\": {}
+    "C:\\Users\\Trevor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.Android\\SCCR_App.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.Android\\SCCR_App.Android.csproj",
       "projectName": "SCCR_App.Android",
-      "projectPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.Android\\SCCR_App.Android.csproj",
-      "packagesPath": "C:\\Users\\tabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.Android\\obj\\",
+      "projectPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.Android\\SCCR_App.Android.csproj",
+      "packagesPath": "C:\\Users\\Trevor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\tabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Trevor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -821,8 +821,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj": {
-              "projectPath": "C:\\Users\\tabri\\Desktop\\git\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj"
+            "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj": {
+              "projectPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj"
             }
           }
         }
