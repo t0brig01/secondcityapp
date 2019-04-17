@@ -14,3 +14,6 @@ C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\ne
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\AdminSettings.xaml.g.cs
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\AdminLogin.xaml.g.cs
 C:\Users\danie\source\repos\SCCR_Project\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\UploadNewEntry.xaml.g.cs
+C:\Users\Trevor\Source\Repos\secondcityapp\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\SCCR_App.csprojAssemblyReference.cache
+C:\Users\Trevor\Source\Repos\secondcityapp\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\SCCR_App.dll
+C:\Users\Trevor\Source\Repos\secondcityapp\SCCR_App\SCCR_App\SCCR_App\obj\Debug\netstandard2.0\SCCR_App.pdb
