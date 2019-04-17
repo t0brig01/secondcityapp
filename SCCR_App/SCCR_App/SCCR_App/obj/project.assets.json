@@ -191,7 +191,7 @@
       ]
     },
     "Xamarin.Forms/3.4.0.1008975": {
-      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "sha512": "tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1008975",
       "files": [
@@ -344,23 +344,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danie\\.nuget\\packages\\": {},
+    "C:\\Users\\Trevor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj",
+      "projectUniqueName": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj",
       "projectName": "SCCR_App",
-      "projectPath": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj",
-      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\source\\repos\\SCCR_Project\\SCCR_App\\SCCR_App\\SCCR_App\\obj\\",
+      "projectPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\SCCR_App.csproj",
+      "packagesPath": "C:\\Users\\Trevor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Trevor\\Source\\Repos\\secondcityapp\\SCCR_App\\SCCR_App\\SCCR_App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Trevor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
