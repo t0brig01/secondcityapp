@@ -108,6 +108,9 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "SCCR_App.Android.dll" comes first in this list. */
 		"SCCR_App.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"SCCR_App.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

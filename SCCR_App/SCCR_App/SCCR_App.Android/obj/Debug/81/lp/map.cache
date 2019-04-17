@@ -1,4 +1,7 @@
 FormsViewGroup
+Plugin.CurrentActivity
+Plugin.Media
+Plugin.Permissions
 SCCR_App
 System.Runtime
 Xamarin.Android.Arch.Core.Common

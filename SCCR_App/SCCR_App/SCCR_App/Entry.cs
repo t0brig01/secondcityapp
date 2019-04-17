@@ -14,7 +14,7 @@ namespace SCCR_App
         public String entryGender { get; set; }
         public String entryFixed { get; set; }
         //having issues getting images
-        //public Image Pic1 { get; set; }
+        public Image Pic1 { get; set; }
 
     }
 }
