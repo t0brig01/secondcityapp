@@ -2,25 +2,39 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SCCR_App"
-             x:Class="SCCR_App.MainPage">
-
+             x:Class="SCCR_App.MainPage">    
     <ScrollView>
         <StackLayout>
+            <Image Source="SCCR_Logo.png" 
+                       HorizontalOptions="CenterAndExpand" 
+                       VerticalOptions=" Start"/>
+            
+            <Label Text="Welcome to the Second City Canine Rescue App!" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start" 
+                    XAlign="Center"
+                   FontSize="Large"/>
+
+            <Label Text="Here you will be notified of any new rescued dogs in need of adoption and fostering." 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start" 
+                    XAlign="Center"
+                    FontSize="Medium"/>
+
+            <Label Text="There are currently no new rescue for us to display here. Check back soon!" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" 
+                    XAlign="Center"/>
+
             <ImageButton Source="settings.png"
                     HorizontalOptions="End"
-                    VerticalOptions="Start"
+                    VerticalOptions="End"
                     BorderColor="Transparent"
                     BackgroundColor="Transparent"
-                    Clicked="SettingsClicked"/>
-            <Label Text="This is the main page - rescue feed will go here. The rescue feed will need to pull and display entries from the database." 
-                    HorizontalOptions="Center"
-                    VerticalOptions="StartAndExpand" />
-            <Image Source="doggo.png"/>
-            <Label Text="This doggo is a 4 year old pitty-mix looking for a good home!"/>
-            <Image Source="aggie.png"/>
-            <Label Text="Aggie may only have three legs, but she has a big heart!"/>
+                    Clicked="SettingsClicked" />
+
         </StackLayout>
+                
     </ScrollView>
-    
 
 </ContentPage>

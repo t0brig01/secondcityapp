@@ -3000,10 +3000,16 @@ namespace SCCR_App.Droid
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
 			// aapt resource value: 0x7F010004
-			public const int settings = 2130771972;
+			public const int RRtext = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int settings_gear = 2130771973;
+			public const int SCCR_Logo = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int settings = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int settings_gear = 2130771975;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
